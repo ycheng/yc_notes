@@ -1,12 +1,6 @@
 # 如何在 Ubuntu / Debian 系統裡面做套件操作. Debian 的套件管理工具 apt
 
-Debian 底層使用工具 dpkg, 上層使用工具 apt 來管理其套件。 
-
-由 ycheng 所建立。 最後修改時間為 2002-10-29 19:34:48。 
-DEBIAN 套件管理 
-
-作者：鄭原真, Jan, 2002. 
-介紹 
+Debian 底層使用工具 dpkg, 上層使用工具 apt 來管理其套件。 作者：鄭原真, Mar, 2018.
 
 許多 Linux 發行版本都有各自的套件管理系統，最常見的便是由 Redhat 所起用的 RPM。Debian 採用了他自己的套件管理系統，並且提供了功能強大的 APT (Advanced Package Tool)，可以幫助您解決套件安裝或是移除過程中，相當棘手的相依性問題。 
 
@@ -26,9 +20,8 @@ DEB：那麼 Package 是甚麼 ? Package (套件) 是一由一組檔案，包含
 有了套件管理程式之後，上述所有問題皆可一併解決。 
 
 套件檔案相關資訊 
-DEB 
 
-套件的命名：以 perl-doc_5.6.1-5_all.deb 為例，perl-doc 為套件名稱，5.6.1 為套件原始版本，5 為套件發行版本，all 表示本套件是給所有的 CPU 所使用的套件。在 all 這個欄位，其他的值如 i386 表示該套件是給 i386 系列 CPU 使用，或是 alpha 表示該套件是編譯給 alpha 系列 CPU 所執行的程式。 
+DEB 套件的命名：以 perl-doc_5.6.1-5_all.deb 為例，perl-doc 為套件名稱，5.6.1 為套件原始版本，5 為套件發行版本，all 表示本套件是給所有的 CPU 所使用的套件。在 all 這個欄位，其他的值如 i386 表示該套件是給 i386 系列 CPU 使用，或是 alpha 表示該套件是編譯給 alpha 系列 CPU 所執行的程式。 
 
 一個套件檔案內所包含的資料有 
 
@@ -73,21 +66,14 @@ dpkg --purge pkg1 ... pkgN
 
 範例 
 
-dpkg -l 
+dpkg -l # 列出所有已安裝套件名稱 
 
-列出所有已安裝套件名稱 
+dpkg -s info # 查詢套件 'info' 是否安裝 ? 
 
-rpm -q info 
+dpkg -S /usr/bin/info # 查詢包含檔案 /usr/bin/info 的套件為何 ? 
 
-查詢套件 info 是否安裝 ? 
+dpkg -L info # 查詢套件 'info' 所所安裝的所有檔案 
 
-dpkg -S /usr/bin/info 
-
-查詢包含檔案 /usr/bin/info 的套件為何 ? 
-
-dpkg -L info 
-
-查詢套件 info 所所安裝的所有檔案 
 APT (Advanced Package Tool) 
 
 apt 是由 Debian 所發展的強大套件維護工具。其後端程式便是 dpkg。apt 程式可以很自動的處理套件的版本一致性問題，套件的升級，移除等等。 
@@ -105,6 +91,7 @@ apt-get install 套件名稱
 apt-get install bash 
 
 apt 便會自動依照 /etc/apt/sources.list 內的資訊，找到最新版本的 bash 套件，並進行下載及安裝。 
+
 4. 移除套件： 
 
 apt-get remove 套件名稱 
@@ -112,6 +99,7 @@ apt-get remove 套件名稱
 例如： 
 
 apt-get remove lynx 
+
 5. 升級系統套件： 
 
 apt-get upgrade 
@@ -127,6 +115,7 @@ apt-get --simulate upgrade (與 apt-get -s upgrade 一樣)
 加上 --simulate 之後，apt-get 將會列出 apt-get upgrade 指令過程中所有將會執行的動作。這樣我們可以在進行系統升級前，瞭解哪些程式將會被升級，並評估是否要進行升級的動作。 
 
 另外，也支援參數 -d 或寫為 --download-only，意思是說，只下載而不進行安裝的動作。 
+
 6. 刪除系統暫存的 deb 檔案： 
 
 apt-get clean 
@@ -136,6 +125,7 @@ apt-get clean
 apt-get autoclean 
 
 與 apt-get clean 不同之處在於，apt-get autoclean 只會刪除目錄 "/var/cache/apt/archives/" 下以經過期版本的 DEB 檔案。例如在該目錄下有 bash_2.05-4_i386.deb 與檔案 bash_2.05-7_i386.deb，目前系統安裝的是版本 -7 的 bash 套件(也是最新版本套件)，則 apt-get autoclean 會將 -4 的 bash 套件檔案從硬碟刪除刪除。 
+
 7. 找尋某個尚未安裝的套件的資訊： 
 
 apt-cache search 某個關鍵字 
@@ -154,7 +144,7 @@ apt-cache show bash
 
 請連線到 http://www.debian.org/security/index.en.html，在該頁面上有說明關於 Debian 對於系統安全修正的處理策略。該策略中最重要的部分，在於 Debian 明確表示，所有系統安全的修正檔案將會在第一時間內放到一個固定的地方。您只需要把該地方的敘述放到 /etc/apt/source.list 即可。 
 
-放在 Crontab 裡面每天跑 
+## 放在 Crontab 裡面每天跑 
 
 每天自動把系統升級到最新版本 !! 
 
