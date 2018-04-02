@@ -1,5 +1,8 @@
 Resources:
 
+To Read/Learn:
+ * GAN: https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5
+
 Engine:
  * TensorFlow: https://www.tensorflow.org/
  *
