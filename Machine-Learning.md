@@ -19,3 +19,6 @@ Book:
  * Linear Algebra: http://joshua.smcvt.edu/linearalgebra/book.pdf
  * Calculus: https://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf
  * Beginning Statistics: https://2012books.lardbucket.org/pdfs/beginning-statistics.pdf
+
+Sites:
+ * Talk to books: https://books.google.com/talktobooks/
