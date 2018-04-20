@@ -1,6 +1,7 @@
 
  * https://github.com/bndr/pipreqs: Generate pip requirements.txt file based on imports of any project
- * 
+ * anaconda: https://www.anaconda.com/download/, for Data Science, lots of library included, large download size.
+ *
 
 Cleanly remove python in OSX:
  * To remove python installation: (ex: version 3.5)
