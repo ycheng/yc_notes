@@ -11,6 +11,10 @@ LSTM:
  * https://github.com/fukuball/Tom-Chang-Deep-Lyrics?utm_campaign=CodeTengu&utm_medium=email&utm_source=CodeTengu_121
  * 
 
+Learning Websites:
+ * Google: https://developers.google.com/machine-learning/crash-course/
+ * Kaggle: https://www.kaggle.com/
+
 Misc:
  * Deep Fake: https://github.com/deepfakes/faceswap
 
