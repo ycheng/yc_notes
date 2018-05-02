@@ -1,3 +1,6 @@
+Debian:
+* sudo apt-get install command-not-found / sudo update-command-not-found / relogin
+*
 
 * ifconfig, netstat will be remove, replaced by iproute2. ref: https://insights.ubuntu.com/2017/07/07/if-youre-still-using-ifconfig-youre-living-in-the-past
 
