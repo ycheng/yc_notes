@@ -14,3 +14,4 @@ Bionic:
 Security:
 * https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/
 * https://wiki.ubuntu.com/SecurityTeam/
+* https://code.launchpad.net/~ubuntu-security/ubuntu-cve-tracker
