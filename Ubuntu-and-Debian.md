@@ -11,7 +11,13 @@ Bionic:
 * https://launchpad.net/ubuntu/+source/thunderbolt-tools/0.9.2-1: for server.
 * https://launchpad.net/ubuntu/+source/bolt: for Desktop
 
-Security:
+Ubuntu - Kernel:
+* Unstable Kernel: https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/unstable
+* oem kernel: https://launchpad.net/~canonical-hwe-team/+archive/ubuntu/ppa/+packages
+* oem kernel: https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/ppa
+* oem kernel: https://launchpad.net/ubuntu/+source/linux-meta-oem
+
+Ubuntu - Security:
 * https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/
 * https://wiki.ubuntu.com/SecurityTeam/
 * https://code.launchpad.net/~ubuntu-security/ubuntu-cve-tracker
