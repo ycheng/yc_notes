@@ -31,3 +31,6 @@ Book:
 
 Sites:
  * Talk to books: https://books.google.com/talktobooks/
+
+Statistics:
+ * R Language slides: https://www.slideshare.net/chenpanliao/slide-44171070
