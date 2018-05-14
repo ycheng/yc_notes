@@ -30,4 +30,7 @@ XX
 * 變異數(variance)
 
 
+* 資料描述:偏態係數
+* https://earnings.dgbas.gov.tw/: 主計處, 薪情平台
+
 
