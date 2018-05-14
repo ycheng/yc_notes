@@ -5,4 +5,4 @@
 書:
 * 統計改變了世界
 * the seven pillars of statistical wisdom
-* 統計已死, 統計萬歲
+* 趙民德,1999,「統計已死,統計萬歲!」第八屆南區統計研討會演說稿
