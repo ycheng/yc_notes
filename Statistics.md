@@ -16,3 +16,18 @@ XX
 * Ordinal methods cannot be used with nominal variable
 * Nominal methods can be used with nominal, ordinal variables.
 
+## 資料描述
+### 資料中心趨勢:
+* 平均數(average)
+* 眾數(mode)
+* 中位數(median)
+### 資料分散程度:
+* 四分位數(Quartile)
+* 全距(range)
+* 四分位距(interquartile range, IQR)
+* 百位數(percentile)
+* 標準差(standard deviation)
+* 變異數(variance)
+
+
+
