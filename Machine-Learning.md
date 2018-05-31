@@ -5,6 +5,7 @@ To Read/Learn:
 
 Engine:
  * TensorFlow: https://www.tensorflow.org/
+ * Pytorch: https://pytorch.org/
  * Apache MXNet https://mxnet.incubator.apache.org/
  * Keras、Redis、Flask (?)
  * GluonNLP: a Deep Learning Toolkit for NLP, https://gluon-nlp.mxnet.io/
