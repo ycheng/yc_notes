@@ -1,5 +1,11 @@
 
+setuptools
+* python3 setup.py install --user
+
+Packages:
  * https://github.com/bndr/pipreqs: Generate pip requirements.txt file based on imports of any project
+
+Misc:
  * anaconda: https://www.anaconda.com/download/, for Data Science, lots of library included, large download size.
  *
 
