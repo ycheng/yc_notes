@@ -1,3 +1,6 @@
+System Driver:
+* "lspci -k": list pci device with driver it uses.
+
 Booting:
 * /etc/modprobe.d/blacklist.conf
 * /etc/defaults/grub, modify GRUB_CMDLINE_LINUX_DEFAULT, "sudo update-grub"
