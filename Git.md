@@ -1,4 +1,10 @@
 
+Worktree:
+
+* git worktree add -b hotfix ../hotfix master # create a work tree with hotfix branch
+* git worktree list # list worktree
+* 
+
 Store credential
 * Store credential forever
   * git config --global credential.helper store
