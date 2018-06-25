@@ -1,3 +1,18 @@
+Booting:
+* /etc/modprobe.d/blacklist.conf
+* /etc/defaults/grub, modify GRUB_CMDLINE_LINUX_DEFAULT, "sudo update-grub"
+
+Kernel Parameters:
+* acpi_osi="Linux-Dell-Video"
+  * result: in bios, _OSI("Linux-Dell-Video") == TRUE
+* pcie_aspm=off
+  * turn off ASPM
+* pcie_aspm.policy=powersupersave
+  * max ASPM power saving
+* noacpi
+  * boot without ACPI
+
+
 Debian:
 * sudo apt-get install command-not-found / sudo update-command-not-found / relogin
 *
