@@ -12,3 +12,8 @@ Store credential
 * Cache credential
   * git config --global credential.helper cache # default cache 15 mins
   * git config --global credential.helper 'cache --timeout 3600' # set time out to 1 hour
+* save http/https account:
+  * git config credential.https://gitlab.aiacademy.tw.username ycheng.tw@gmail.com
+
+
+
