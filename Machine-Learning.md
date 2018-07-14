@@ -17,6 +17,7 @@ LSTM:
 
 Learning Websites:
  * Google: https://developers.google.com/machine-learning/crash-course/
+ * Microsoft: https://academy.microsoft.com/en-us/tracks/artificial-intelligence/
  * Kaggle: https://www.kaggle.com/
 
 Misc:
