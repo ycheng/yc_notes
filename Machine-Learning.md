@@ -4,12 +4,13 @@ To Read/Learn:
  * GAN: https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5
 
 Engine:
- * TensorFlow: https://www.tensorflow.org/
- * Pytorch: https://pytorch.org/
- * Microsoft CNTK: https://www.microsoft.com/en-us/cognitive-toolkit/
- * Apache MXNet https://mxnet.incubator.apache.org/
- * Keras、Redis、Flask (?)
- * GluonNLP: a Deep Learning Toolkit for NLP, https://gluon-nlp.mxnet.io/
+* TensorFlow: https://www.tensorflow.org/
+  * Auto Graph https://blog.csdn.net/guleileo/article/details/81140180
+* Pytorch: https://pytorch.org/
+* Microsoft CNTK: https://www.microsoft.com/en-us/cognitive-toolkit/
+* Apache MXNet https://mxnet.incubator.apache.org/
+* Keras、Redis、Flask (?)
+* GluonNLP: a Deep Learning Toolkit for NLP, https://gluon-nlp.mxnet.io/
 
 
 LSTM:
