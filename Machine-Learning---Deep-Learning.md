@@ -1,7 +1,11 @@
 Resources:
 
+Guide Line:
+* https://machinelearningmastery.com/reproducible-results-neural-networks-keras/
+
 To Read/Learn:
  * GAN: https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5
+ * Attention: 
 
 Engine:
 * TensorFlow: https://www.tensorflow.org/
