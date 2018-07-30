@@ -5,7 +5,7 @@ Guide Line:
 
 To Read/Learn:
 * GAN: https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5
-* Attention: 
+* Attention: https://blog.csdn.net/malefactor/article/details/50550211
 * Word Embedding: https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
 
 Engine:
