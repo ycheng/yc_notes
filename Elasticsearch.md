@@ -4,5 +4,7 @@ replicas
 
 Version:
 * Each document have it's own version number count.
-* (Update) operation will failed if you provide a version number that's not match current one.
+* As Update/Delete operations
+  * Internal version: version number must match if provided.
+  * External version: version number must grater or equal if provided.
 * Return status will have the new version number.
