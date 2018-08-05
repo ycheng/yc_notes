@@ -79,4 +79,13 @@ GET /customer/_search
     { "age": "asc" }
   ]
 }
+
+
+GET /customer/_search
+{
+  "query": { "match_all": {} },
+  "from": 10,
+  "size": 10,
+  "sort": { "age": { "order": "desc" } }
+}
 ```
