@@ -61,3 +61,9 @@ POST /customer/_doc/_bulk?pretty
 {"doc": { "name": "John Doe becomes Jane Doe" } }
 {"delete":{"_id":"2"}}
 ```
+
+Shell Command (via curl)
+```
+curl -H "Content-Type: application/json" -XPOST "localhost:9200/bank/_doc/_bulk?pretty&refresh" --data-binary "@accounts.json"
+curl "localhost:9200/_cat/indices?v"
+```
