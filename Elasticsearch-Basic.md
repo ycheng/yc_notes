@@ -30,6 +30,14 @@ POST /customer/_doc?pretty
   "name": "Jane Doe Lee"
 }
 
+# failed if it already exists
+PUT /customer/_doc/1?op_type=create
+or
+PUT /customer/_doc/1/_create
+
+# put a document with routing (on shard placement)
+POST customer/_doc?routing=kimchy
+
 # Get a document
 GET /customer/_doc/1?pretty
 
