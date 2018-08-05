@@ -47,4 +47,17 @@ POST /customer/_doc/1/_update?pretty
 
 # delete a document. result will be either deleted or not_found
 DELETE /customer/_doc/1?pretty
+
+# bulk update
+POST /customer/_doc/_bulk?pretty
+{"index":{"_id":"1"}}
+{"name": "John Doe" }
+{"index":{"_id":"2"}}
+{"name": "Jane Doe" }
+
+# bulk update
+POST /customer/_doc/_bulk?pretty
+{"update":{"_id":"1"}}
+{"doc": { "name": "John Doe becomes Jane Doe" } }
+{"delete":{"_id":"2"}}
 ```
