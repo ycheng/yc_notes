@@ -41,6 +41,9 @@ POST customer/_doc?routing=kimchy
 # Get a document
 GET /customer/_doc/1?pretty
 
+# check document exists
+HEAD customer/_doc/1
+
 # update a document with partial fields
 POST /customer/_doc/1/_update?pretty
 {
