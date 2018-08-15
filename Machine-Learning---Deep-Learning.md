@@ -1,5 +1,10 @@
 Resources:
 
+Articles:
+* http://bangqu.com/gA8h3D.html
+  * private AI: 目前美國在能利用隱私數據進行人工智能研究有了比較大的進展
+  * 另一個進展是可解釋的AI。
+
 Guide Line:
 * https://machinelearningmastery.com/reproducible-results-neural-networks-keras/
 
