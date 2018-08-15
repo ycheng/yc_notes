@@ -170,3 +170,5 @@ apt-get -y -d dist-upgrade
 apt-get -s dist-upgrade 
 
 這樣我每天就可以經由 cron log 來決定何時需要升級哪些檔案。
+
+# TODO: 加入 autoremove
