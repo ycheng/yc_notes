@@ -1,6 +1,6 @@
 # 如何在 Ubuntu / Debian 系統裡面做套件操作. Debian 的套件管理工具 apt
 
-Debian 底層使用工具 dpkg, 上層使用工具 apt 來管理其套件。 作者：鄭原真, Mar, 2018.
+Debian 底層使用工具 dpkg, 上層使用工具 apt 來管理其套件。 作者：鄭原真, 2002...2018.
 
 許多 Linux 發行版本都有各自的套件管理系統，最常見的便是由 Redhat 所起用的 RPM。Debian 採用了他自己的套件管理系統，並且提供了功能強大的 APT (Advanced Package Tool)，可以幫助您解決套件安裝或是移除過程中，相當棘手的相依性問題。 
 
