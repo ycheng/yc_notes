@@ -4,7 +4,7 @@ Debian 底層使用工具 dpkg, 上層使用工具 apt 來管理其套件。 作
 
 許多 Linux 發行版本都有各自的套件管理系統，最常見的便是由 Redhat 所起用的 RPM。Debian 採用了他自己的套件管理系統，並且提供了功能強大的 APT (Advanced Package Tool)，可以幫助您解決套件安裝或是移除過程中，相當棘手的相依性問題。 
 
-Package (套件) 是甚麼 ? 
+## Package (套件) 是甚麼 ? 
 
 DEB：DEB 是 DEBIAN/Linux 的套件名稱。Debian 是一個完全由社群推動而成的一個 Linux 發行版本。 
 
@@ -19,7 +19,7 @@ DEB：那麼 Package 是甚麼 ? Package (套件) 是一由一組檔案，包含
 
 有了套件管理程式之後，上述所有問題皆可一併解決。 
 
-套件檔案相關資訊 
+## 套件檔案相關資訊 
 
 DEB 套件的命名：以 perl-doc_5.6.1-5_all.deb 為例，perl-doc 為套件名稱，5.6.1 為套件原始版本，5 為套件發行版本，all 表示本套件是給所有的 CPU 所使用的套件。在 all 這個欄位，其他的值如 i386 表示該套件是給 i386 系列 CPU 使用，或是 alpha 表示該套件是編譯給 alpha 系列 CPU 所執行的程式。 
 
@@ -29,11 +29,11 @@ DEB 套件的命名：以 perl-doc_5.6.1-5_all.deb 為例，perl-doc 為套件�
 * 所要安裝的檔案。 
 * 各個檔案安裝後所在的目錄，檔案擁有者，權限設定，...， 檔案大小。 
 
-使用套件管理系統： 
+## 使用套件管理系統： 
 
 DEB 套件的管理全部都是經過指令 dpkg 來對套件進行安裝，移除，升級等動作。 
 
-安裝套件： 
+### 安裝套件： 
 
 安裝 DEB套件指令： 
 
@@ -50,7 +50,7 @@ dpkg -i bash_2.05-7_i386.deb
 典型的 dependency 關係：安裝 libxxx-dev 之前通常需要先安裝 libxxx。 
 3. 所要安裝的套件與現有套件間有衝突 (conflict) 不能安裝該套件。在單一個發行版本中通常是不會有這種情形， 但若你因為需要安裝來自不同發行版本的套件時，便容易會有這樣的情形。 
 
-移除套件： 
+### 移除套件： 
 
 移除 DEB 套件指令 
 
@@ -62,7 +62,7 @@ dpkg --purge pkg1 ... pkgN
 
 移除套件 pkg1 ... pkgN， 含設定檔案等。 
 
-查詢套件的資訊 
+### 查詢套件的資訊 
 
 範例 
 
@@ -74,7 +74,7 @@ dpkg -S /usr/bin/info # 查詢包含檔案 /usr/bin/info 的套件為何 ?
 
 dpkg -L info # 查詢套件 'info' 所所安裝的所有檔案 
 
-APT (Advanced Package Tool) 
+## APT (Advanced Package Tool) 
 
 apt 是由 Debian 所發展的強大套件維護工具。其後端程式便是 dpkg。apt 程式可以很自動的處理套件的版本一致性問題，套件的升級，移除等等。 
 
@@ -140,11 +140,11 @@ apt-cache show bash
 
 會將套件 bash 的所有資訊顯示出來，不管 bash 套件是否安裝在系統內。 
 
-系統安全的維護 
+## 系統安全的維護 
 
 請連線到 http://www.debian.org/security/index.en.html，在該頁面上有說明關於 Debian 對於系統安全修正的處理策略。該策略中最重要的部分，在於 Debian 明確表示，所有系統安全的修正檔案將會在第一時間內放到一個固定的地方。您只需要把該地方的敘述放到 /etc/apt/source.list 即可。 
 
-## 放在 Crontab 裡面每天跑 
+### 放在 Crontab 裡面每天跑 
 
 每天自動把系統升級到最新版本 !! 
 
