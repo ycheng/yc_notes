@@ -1,3 +1,3 @@
 
 Install Extra Driver:
-* sudo ubuntu-drivers autoinstall
+* $ sudo ubuntu-drivers autoinstall
