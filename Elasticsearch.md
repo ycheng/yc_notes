@@ -40,6 +40,10 @@ GET /customer/_search
 ```
 -------
 
+TODO: https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-termvectors.html
+
+------
+
 ```
 GET _search
 {
