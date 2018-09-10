@@ -3,8 +3,9 @@
   * blkid: to show uuid for partition.
 
 ### Install Extra Driver:
-
-* $ sudo ubuntu-drivers autoinstall
+```
+$ sudo ubuntu-drivers autoinstall
+```
 
 ### Black list kernel module
 
@@ -13,6 +14,10 @@ How to ask kernel not to load certain kernel module - Black list: (to ask kernel
 2. echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf
 3. echo nouveau off > /etc/modprobe.d/balcklist-nouveau-alias-off.conf # this will load module "off" for command "modprobe nouveau", but not such module ("off"), so it will failed.
 
+### Update initrd
+```
+$ sudo update-initramfs -u
+```
 
 ### My Convention
 
