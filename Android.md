@@ -5,4 +5,4 @@ Open Source:
 
 MTP:
 * Ubuntu 16.04: mtp-tools
-* Windows 10: TODO
+* Windows 10: Seems work automatically
