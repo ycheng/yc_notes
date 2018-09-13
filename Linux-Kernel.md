@@ -6,3 +6,8 @@ Suspend:
  * "# echo deep > /sys/power/mem_sleep # s3"
 
 Cgroup:
+
+
+### ACPI
+
+* brightness adjustment hot-key: ACPI event ?
