@@ -1,11 +1,14 @@
+### File name in non-ascii (like CJK)
 
-Worktree:
+* git config core.quotepath false
+
+### Worktree
 
 * git worktree add -b hotfix ../hotfix master # create a work tree with hotfix branch
 * git worktree list # list worktree
 * 
 
-Store credential
+### Store credential
 * Store credential forever
   * git config --global credential.helper store
   * save in ~/.git-credentials
@@ -14,6 +17,3 @@ Store credential
   * git config --global credential.helper 'cache --timeout 3600' # set time out to 1 hour
 * save http/https account:
   * git config credential.https://gitlab.aiacademy.tw.username ycheng.tw@gmail.com
-
-
-
