@@ -119,6 +119,18 @@ POST /customer/_doc/_bulk?pretty
 {"delete":{"_id":"2"}}
 ```
 
+Snapshot
+```
+GET /_snapshot
+PUT /_snapshot/backup
+{
+  "type": "fs",
+  "settings": {
+    "location": "/data/directory/path"
+  }
+}
+```
+
 Shell Command (via curl)
 ```
 curl -H "Content-Type: application/json" -XPOST "localhost:9200/bank/_doc/_bulk?pretty&refresh" --data-binary "@accounts.json"
