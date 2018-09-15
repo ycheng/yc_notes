@@ -20,6 +20,7 @@ To Read/Learn:
 
 Engine:
 * TensorFlow: https://www.tensorflow.org/
+  * Cuda / cuDNN version: https://www.tensorflow.org/install/install_sources#tested_source_configurations
   * Auto Graph https://blog.csdn.net/guleileo/article/details/81140180
   * https://www.tensorflow.org/serving/
 * Pytorch: https://pytorch.org/
