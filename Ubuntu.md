@@ -31,3 +31,6 @@ For Chinese use:
   * I change back to Ctrl-Space to switch Pure English vs Chinese mode.
   * 如何做: 設定程式 => 裝置 => 鍵盤 => (最下面) 輸入 -> 切換到下一個輸入來源 => 設定按鍵.
   * How: Settings => Device => Keyboard => (Bottom) Input -> Switch to next Input Source => Set the key.
+
+### Ubuntu Machine
+* http://shop.ekimia.fr/en/: Franch Company that sell Ubuntu Laptop.
