@@ -55,3 +55,10 @@ Sites:
 
 Statistics:
  * R Language slides: https://www.slideshare.net/chenpanliao/slide-44171070
+
+HW tips:
+ * Nvidia:
+  * prime-select nvidia
+  * nvidia-smi
+ * AMD:
+  * radeontop
