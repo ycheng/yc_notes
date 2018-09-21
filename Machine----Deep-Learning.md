@@ -58,7 +58,7 @@ Statistics:
 
 HW tips:
  * Nvidia:
-  * prime-select nvidia
-  * nvidia-smi
+   * prime-select nvidia
+   * nvidia-smi
  * AMD:
-  * radeontop
+   * radeontop
