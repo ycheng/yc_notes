@@ -1,3 +1,5 @@
+### partition label
+  * e2label partition label
 
 ### fstab
   * blkid: to show uuid for partition.
