@@ -1,8 +1,8 @@
 ### partition label
-  * e2label partition label
+* sudo e2label partition label
 
 ### fstab
-  * blkid: to show uuid for partition.
+* blkid: to show uuid for partition.
 
 ### Install Extra Driver:
 ```
