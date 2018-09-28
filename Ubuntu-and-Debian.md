@@ -1,11 +1,51 @@
-System Driver:
+### partition label
+* sudo e2label partition label
+
+### fstab
+* blkid: to show uuid for partition.
+
+### Install Extra Driver:
+```
+$ sudo ubuntu-drivers autoinstall
+```
+
+### Black list kernel module
+
+How to ask kernel not to load certain kernel module - Black list: (to ask kernel not to load nouveau as example)
+1. module_blacklist=nouveau: add in kernel boot parameter
+2. echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf
+3. echo nouveau off > /etc/modprobe.d/balcklist-nouveau-alias-off.conf # this will load module "off" for command "modprobe nouveau", but not such module ("off"), so it will failed.
+
+### Update initrd
+```
+$ sudo update-initramfs -u
+```
+
+### My Convention
+
+Now it's 18.04
+
+* Gnome Terminal: Ctrl-Shift-C / Ctrl-Shift-V to copy/paste is annonying. I change it to Alt-c / Alt-v
+  * How: Gnome Terminal Menu -> Edit -> Preference -> Key -> Change it !
+
+For Chinese use:
+* use shift to switch between English / Chinese is not good for me. I hist Shift-Space from time to time
+  * I change back to Ctrl-Space to switch Pure English vs Chinese mode.
+  * 如何做: 設定程式 => 裝置 => 鍵盤 => (最下面) 輸入 -> 切換到下一個輸入來源 => 設定按鍵.
+  * How: Settings => Device => Keyboard => (Bottom) Input -> Switch to next Input Source => Set the key.
+
+### Ubuntu Machine
+* http://shop.ekimia.fr/en/: Franch Company that sell Ubuntu Laptop.
+
+
+### System Driver:
 * "lspci -k": list pci device with driver it uses.
 
-Booting:
+###　Booting:
 * /etc/modprobe.d/blacklist.conf
 * /etc/defaults/grub, modify GRUB_CMDLINE_LINUX_DEFAULT, "sudo update-grub"
 
-Kernel Parameters:
+### Kernel Parameters:
 * acpi_osi="Linux-Dell-Video"
   * result: in bios, _OSI("Linux-Dell-Video") == TRUE
 * pcie_aspm=off
@@ -16,7 +56,7 @@ Kernel Parameters:
   * boot without ACPI
 
 
-Debian:
+### Debian
 * sudo apt-get install command-not-found / sudo update-command-not-found / relogin
 *
 
@@ -24,18 +64,18 @@ Debian:
 
 * NetPlan: it have two renderers:  NetworkManager and networkd. https://websiteforstudents.com/configure-static-ip-addresses-on-ubuntu-18-04-beta/
 
-Bionic:
+### Bionic:
 
 * https://launchpad.net/ubuntu/+source/thunderbolt-tools/0.9.2-1: for server.
 * https://launchpad.net/ubuntu/+source/bolt: for Desktop
 
-Ubuntu - Kernel:
+### Ubuntu - Kernel:
 * Unstable Kernel: https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/unstable
 * oem kernel: https://launchpad.net/~canonical-hwe-team/+archive/ubuntu/ppa/+packages
 * oem kernel: https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/ppa
 * oem kernel: https://launchpad.net/ubuntu/+source/linux-meta-oem
 
-Ubuntu - Security:
+### Ubuntu - Security:
 * https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/
 * https://wiki.ubuntu.com/SecurityTeam/
 * https://code.launchpad.net/~ubuntu-security/ubuntu-cve-tracker
