@@ -9,6 +9,11 @@
 $ sudo ubuntu-drivers autoinstall
 ```
 
+## Kernel
+
+### S3 / S2IDLE
+* /sys/power/mem_sleep: s2idle / deep
+
 ### Black list kernel module
 
 How to ask kernel not to load certain kernel module - Black list: (to ask kernel not to load nouveau as example)
