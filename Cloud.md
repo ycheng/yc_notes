@@ -21,6 +21,15 @@ K8S pod:
 K8S deployments:
 * kubectl get deployments
 * kubectl delete deployment <name>
+* kubectl get rs # replica set
+* kubectl get pods --show-labels
+* kubectl rollout status deployment/deployment-name
+* kubectl set image deployment/deployment-name k8s-demo=k8s-demo:2 # update app version
+* kubectl edit deployment/deployment-name
+* kubectl rollout status deployment/deployment-name
+* kubectl rollout history deployment/deployment-name
+* kubectl rollout undo deployment/deployment-name
+* kubectl rollout undo deployment/deployment-name --to-revision=n
 
 K8S Nodes:
 * kubectl get nodes
