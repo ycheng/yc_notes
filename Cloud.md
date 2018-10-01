@@ -41,6 +41,12 @@ K8S Replication Controller:
 * kubectl scale --replicas=n -f pod_file_with_rc.yml
 * kubectl delete rc/rc-name
 
+K8S expose:
+* kubectl expose deployment deployment-name --type=NodePort
+* kubectl get service
+* kubectl describe service deployment-name
+* minikube service deplyment-name --url
+
 Old School
 
 
