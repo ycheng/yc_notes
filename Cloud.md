@@ -26,6 +26,12 @@ K8S Nodes:
 * kubectl get nodes
 * kubectl delete node <name>
 
+K8S Replication Controller:
+* kubectl get rc
+* kubectl scale --replicas=n rc/rc-name
+* kubectl scale --replicas=n -f pod_file_with_rc.yml
+* kubectl delete rc/rc-name
+
 Old School
 
 
