@@ -1,3 +1,7 @@
+### S3 stress test
+* fwts
+* fwts s3 --s3-sleep-delay=30 --s3-multiple=30 --s3-max-delay=30 --s3-min-delay=30
+
 ### partition label
 * sudo e2label partition label
 
