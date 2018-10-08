@@ -1,4 +1,8 @@
 
+User Preferencce
+ * On Windows/Linux - File > Preferences > Settings
+ * On macOS - Code > Preferences > Settings
+
 Command mode on each platform:
  * OSX: Command + Shift + P, F1
  * Windows: Control - Shift - P, F1
