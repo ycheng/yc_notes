@@ -1,3 +1,8 @@
+### find information
+
+* git tag --contains commit-hash
+
+
 ### File name in non-ascii (like CJK)
 
 * git config core.quotepath false
