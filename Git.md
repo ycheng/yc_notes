@@ -14,6 +14,7 @@
 * 
 
 ### Store credential
+Password store in plain text. Use it on your own risk.
 * Store credential forever
   * git config --global credential.helper store
   * save in ~/.git-credentials
