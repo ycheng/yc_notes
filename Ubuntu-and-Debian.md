@@ -1,3 +1,6 @@
+### Ubuntu apt key:
+* sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 00000000
+
 ### Dell WMI
 * echo "module dell_wmi +p" | sudo tee /sys/kernel/debug/dynamic_debug/control
 
@@ -5,6 +8,7 @@
 * sudo add-apt-repository ppa:firmware-testing-team/ppa-fwts-stable
 * sudo apt install fwts
 * fwts s3 --s3-sleep-delay=30 --s3-multiple=30 --s3-max-delay=30 --s3-min-delay=30
+* "fwts method --dumpfile=acpi.log" ?
 
 ### partition label
 * sudo e2label partition label
