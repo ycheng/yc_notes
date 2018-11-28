@@ -1,3 +1,6 @@
+### Dell WMI
+* echo "module dell_wmi +p" | sudo tee /sys/kernel/debug/dynamic_debug/control
+
 ### S3 stress test
 * sudo add-apt-repository ppa:firmware-testing-team/ppa-fwts-stable
 * sudo apt install fwts
