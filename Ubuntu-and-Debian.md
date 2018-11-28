@@ -1,5 +1,6 @@
 ### S3 stress test
-* fwts
+* sudo add-apt-repository ppa:firmware-testing-team/ppa-fwts-stable
+* sudo apt install fwts
 * fwts s3 --s3-sleep-delay=30 --s3-multiple=30 --s3-max-delay=30 --s3-min-delay=30
 
 ### partition label
