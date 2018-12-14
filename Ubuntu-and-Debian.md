@@ -1,3 +1,10 @@
+
+### pulseaudio debug
+* /etc/pulse/client.conf
+  * extra-arguments = -vvvv --log-target=file:/tmp/pa-log.txt
+  * reboot
+
+
 ### Ubuntu apt key:
 * sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 00000000
 
