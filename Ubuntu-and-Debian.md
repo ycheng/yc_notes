@@ -1,3 +1,7 @@
+### disable suspend for pulseaudio
+* comment out "load-module module-suspend-on-idle" from ~/.config/pulse/default.pa or /etc/pulse/default.pa
+* Ref: https://askubuntu.com/questions/218444/sound-output-starts-delayed
+
 ### pinentry
 * tool to ask / cache password, for use case like gpg.
 * sudo update-alternatives --config pinentry
