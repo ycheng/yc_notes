@@ -1,3 +1,7 @@
+### emergency mode
+* in kernel boot parameter, add "emergency"
+* ref: https://linuxconfig.org/how-to-boot-ubuntu-18-04-into-emergency-and-rescue-mode
+
 ### disable suspend for pulseaudio
 * comment out "load-module module-suspend-on-idle" from ~/.config/pulse/default.pa or /etc/pulse/default.pa
 * Ref: https://askubuntu.com/questions/218444/sound-output-starts-delayed
