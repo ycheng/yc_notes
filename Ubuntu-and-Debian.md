@@ -1,3 +1,7 @@
+### pinentry
+* tool to ask / cache password, for use case like gpg.
+* sudo update-alternatives --config pinentry
+
 
 ### pulseaudio debug
 * /etc/pulse/client.conf
