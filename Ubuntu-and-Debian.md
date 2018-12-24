@@ -1,3 +1,7 @@
+### efi shell
+* partition type id: ef / EFI (FAT-12/16/32)
+*
+
 ### emergency mode
 * in kernel boot parameter, add "emergency"
 * ref: https://linuxconfig.org/how-to-boot-ubuntu-18-04-into-emergency-and-rescue-mode
