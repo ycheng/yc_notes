@@ -1,3 +1,7 @@
+### partition label
+* FAT32: fatlabel
+* ext2/3/4: e2label
+
 ### efi shell
 * partition type id: ef / EFI (FAT-12/16/32)
 *
