@@ -8,7 +8,6 @@
 
 ### efi shell
 * partition type id: ef / EFI (FAT-12/16/32)
-*
 
 ### emergency mode
 * in kernel boot parameter, add "emergency"
