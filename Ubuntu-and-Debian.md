@@ -1,3 +1,7 @@
+### debug s3
+* /sys/kernel/debug/wakeup_sources
+* "tlp bat" or "powertop --auto-tune". using new kernel.
+
 ### ubuntu xorg (gpu-manager)
 * xorg.conf any more. We simply create configuration files in /usr/share/X11/xorg.conf.d/
 * Ref: https://bugs.launchpad.net/bugs/1667198
