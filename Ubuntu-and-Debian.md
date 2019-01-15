@@ -1,3 +1,7 @@
+### ubuntu xorg (gpu-manager)
+* xorg.conf any more. We simply create configuration files in /usr/share/X11/xorg.conf.d/
+* Ref: https://bugs.launchpad.net/bugs/1667198
+
 ### partition label
 * FAT32: fatlabel
 * ext2/3/4: e2label
