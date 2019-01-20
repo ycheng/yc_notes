@@ -31,4 +31,15 @@ Migration
 * VPC: virtual private cloud, like a virtual data center.
 * CloudFront: CDN for AWS
 * Route53: Amazon dns server
+* API gateway: create api for other service to use.
+* Direct connect: direct line to company head quarter
+
+
+* CodeStar: project managing tool, code, toolchain
+* CodeCommit: private git commit
+* CodeBuild: compile and ___, as you have commit
+* CodeDeploy: you know.
+* CodePipeline: Automate your pipe line to release sw.
+* X-Ray: Analyze and debug your server-less app
+
 * 
