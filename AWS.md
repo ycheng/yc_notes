@@ -30,4 +30,5 @@ Migration
 
 * VPC: virtual private cloud, like a virtual data center.
 * CloudFront: CDN for AWS
+* Route53: Amazon dns server
 * 
