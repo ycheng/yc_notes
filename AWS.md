@@ -1,5 +1,5 @@
 
-* CloudFront: CDN for AWS
+
 * AZ / Availability Zone: A Region contains at least two AZ.
 
 
@@ -22,4 +22,12 @@ Database:
 
 Migration
 * AWS Migration Hub: track your service as you move it into AWS.
+* Application Discovery Service: find service, service dependency between 
+* Database migrate service: 
+* Server migration service:
+* Snowball: migrate large data
 
+
+* VPC: virtual private cloud, like a virtual data center.
+* CloudFront: CDN for AWS
+* 
