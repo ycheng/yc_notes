@@ -1,3 +1,6 @@
+### initrd.lx
+* 7z e -so ../initrd.lz | cpio -id
+
 ### debug s3
 * /sys/kernel/debug/wakeup_sources
 * "tlp bat" or "powertop --auto-tune". using new kernel.
