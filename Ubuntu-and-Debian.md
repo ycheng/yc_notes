@@ -1,3 +1,7 @@
+### are you run in Giga ethernet in linux?
+* $ sudo mii-tool eth0 [-v]
+* $ ethtool eth0
+
 ### initrd.lx
 * 7z e -so ../initrd.lz | cpio -id
 
