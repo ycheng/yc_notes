@@ -6,3 +6,6 @@ Try on Meizu Pro 5
 
 Android studio:
  - File -> Settings -> Plugin -> Search for flutter plugin and install it.
+
+VS Code:
+ - install flutter plugin.
