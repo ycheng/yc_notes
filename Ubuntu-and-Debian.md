@@ -1,4 +1,10 @@
-### are you run in Giga ethernet in linux?
+### debug grub
+* add "set debug=all" to the first line of /boot/grub/grub.cfg
+* un-comment GRUB_TERMINAL=console from /etc/default/grub
+* $ sudo update-grub
+* Ref: https://fourdollars.blogspot.com/2013/07/grub2.html
+
+### are you run in giga ethernet in linux?
 * $ sudo mii-tool eth0 [-v]
 * $ ethtool eth0
 
