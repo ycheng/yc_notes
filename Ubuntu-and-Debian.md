@@ -1,3 +1,7 @@
+### create bootable usb stick in windows
+* https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
+* suggest https://rufus.ie/
+
 ### debug grub
 * add "set debug=all" to the first line of /boot/grub/grub.cfg
 * un-comment GRUB_TERMINAL=console from /etc/default/grub
