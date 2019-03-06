@@ -1,3 +1,9 @@
+### 18.04: change hostname
+* https://linuxconfig.org/how-to-change-hostname-on-ubuntu-18-04-bionic-beaver-linux
+* $ sudo hostnamectl set-hostname linuxconfig
+* set "preserve_hostname: true" for /etc/cloud/cloud.cfg
+* modify /etc/hosts, /etc/postfix/main.cf.
+
 ### create bootable usb stick in windows
 * https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
 * suggest https://rufus.ie/
