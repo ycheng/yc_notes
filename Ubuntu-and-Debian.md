@@ -1,3 +1,10 @@
+### fwupd / fwupdate / gcab
+* fwupdmgr install file.cab
+* sudo fwupdate -l # to find the guid
+* sudo fwupdate -a guid firmware.bin
+* reboot after that.
+* gcab -x firmware.cab # get firmware.bin from cab file.
+
 ### 18.04: change hostname
 * https://linuxconfig.org/how-to-change-hostname-on-ubuntu-18-04-bionic-beaver-linux
 * $ sudo hostnamectl set-hostname linuxconfig
