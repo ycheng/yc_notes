@@ -1,3 +1,6 @@
+### snap
+* $ sudo snap connect modem-manager:mmcli modem-manager:service # to have modem-manager snap work.
+
 ### tlpui
 * https://github.com/d4nj1/TLPUI
 
