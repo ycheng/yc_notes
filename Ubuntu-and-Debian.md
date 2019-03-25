@@ -1,3 +1,6 @@
+### deb verion retrival
+* $ rmadison pkg # in pkg devscripts
+
 ### snap
 * $ sudo snap connect modem-manager:mmcli modem-manager:service # to have modem-manager snap work.
 
