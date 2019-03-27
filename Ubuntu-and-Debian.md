@@ -1,3 +1,9 @@
+### secure boot
+* mokutil --revoke-import # revoke import
+* mokutil --test-key /var/lib/shim-signed/mok/MOK.der
+* update-secureboot-policy --new-key
+* printf "123\n123\n" | mokutil --import /var/lib/shim-signed/mok/MOK.der
+
 ### deb verion retrival
 * $ rmadison pkg # in pkg devscripts
 
