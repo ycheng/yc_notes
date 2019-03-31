@@ -1,3 +1,6 @@
+Ubuntu:
+ * HTML url is grabbed by visual code, fixed by:
+ * rename /usr/share/applications/code-url-handler.desktop to something else or remove it.
 
 User Preferencce
  * On Windows/Linux - File > Preferences > Settings
