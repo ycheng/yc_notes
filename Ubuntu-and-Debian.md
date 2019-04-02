@@ -1,3 +1,6 @@
+### dd
+* dd if=XXX.iso of=/dev/sdb conv=fsync status=progress
+
 ### secure boot
 * mokutil --revoke-import # revoke import
 * mokutil --test-key /var/lib/shim-signed/mok/MOK.der
