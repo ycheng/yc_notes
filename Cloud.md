@@ -16,6 +16,7 @@ K8S Service:
 
 K8S pod:
 * kubectl get pods
+* kubectl get pods --all-namespaces
 * kubectl delete pods <pod>
 
 K8S deployments:
