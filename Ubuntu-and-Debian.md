@@ -1,3 +1,6 @@
+### debconf
+* echo get debconf/frontend | debconf-communicate
+
 ### dd
 * dd if=XXX.iso of=/dev/sdb conv=fsync status=progress
 
