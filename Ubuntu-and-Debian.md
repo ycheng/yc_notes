@@ -1,5 +1,7 @@
 ### debconf
-* echo get debconf/frontend | debconf-communicate
+* sudo apt install -y smbios-utils
+* % sudo smbios-token-ctl -v --is-bool  --token-id=0x034f
+* % sudo smbios-token-ctl -v --activate --token-id=0x034f
 
 ### debconf
 * echo get debconf/frontend | debconf-communicate
