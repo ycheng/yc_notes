@@ -1,3 +1,8 @@
+### nvlink
+* nvidia-smi nvlink -c # 
+* simpleP2P # CUDA, NVLINK Peer-To-Peer
+* p2pBandwidthLatencyTest # CUDA, NVLINK Peer-To-Peer
+
 ### debconf
 * sudo apt install -y smbios-utils
 * % sudo smbios-token-ctl -v --is-bool  --token-id=0x034f
