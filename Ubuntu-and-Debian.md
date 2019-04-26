@@ -1,3 +1,8 @@
+### busy kworker
+* sudo apt-get install linux-tools-common linux-tools-3.11.0-15-generic # install perf
+* sudo perf record -g -a sleep 10 # get log
+* sudo perf report # check log
+
 ### nvlink
 * nvidia-smi nvlink -c # 
 * simpleP2P # CUDA, NVLINK Peer-To-Peer
