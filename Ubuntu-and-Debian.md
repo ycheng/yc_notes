@@ -3,7 +3,7 @@
 * simpleP2P # CUDA, NVLINK Peer-To-Peer
 * p2pBandwidthLatencyTest # CUDA, NVLINK Peer-To-Peer
 
-### debconf
+### smbios
 * $ sudo apt install -y smbios-utils
 * $ sudo smbios-token-ctl -v --is-bool  --token-id=0x034f
 * $ sudo smbios-token-ctl -v --activate --token-id=0x034f
