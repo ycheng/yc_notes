@@ -2,6 +2,7 @@
 * sudo apt-get install linux-tools-common linux-tools-3.11.0-15-generic # install perf
 * sudo perf record -g -a sleep 10 # get log
 * sudo perf report # check log
+* source: https://askubuntu.com/questions/33640/kworker-what-is-it-and-why-is-it-hogging-so-much-cpu
 
 ### nvlink
 * nvidia-smi nvlink -c # 
