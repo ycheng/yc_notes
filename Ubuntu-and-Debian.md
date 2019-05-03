@@ -1,3 +1,6 @@
+### msr-tools
+* MSRs are Machine Specific Registers that are used to set values for hardware to use, or to pass values between the BIOS and kernel.
+
 ### busy kworker
 * sudo apt-get install linux-tools-common linux-tools-3.11.0-15-generic # install perf
 * sudo perf record -g -a sleep 10 # get log
