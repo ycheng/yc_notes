@@ -1,3 +1,6 @@
+### lshw
+* lshw: can show hw information. Ex: how many memory slot, and each memory module on each slot.
+
 ### msr-tools
 * MSRs are Machine Specific Registers that are used to set values for hardware to use, or to pass values between the BIOS and kernel.
 
