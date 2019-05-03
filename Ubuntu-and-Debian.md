@@ -1,3 +1,6 @@
+### backlight
+* /sys/class/backlight/
+
 ### lshw
 * lshw: can show hw information. Ex: how many memory slot, and each memory module on each slot.
 
