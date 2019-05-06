@@ -1,3 +1,9 @@
+### socket
+* netstat
+* lsof
+* ss
+* ref: https://unix.stackexchange.com/questions/16300/whos-got-the-other-end-of-this-unix-socketpair
+
 ### backlight
 * /sys/class/backlight/
 
