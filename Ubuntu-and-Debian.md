@@ -1,3 +1,7 @@
+### hot key
+* input, acpi event (acpi_listen), wmi
+* showkey
+
 ### socket
 * netstat
 * lsof
