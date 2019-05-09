@@ -42,8 +42,10 @@
 ### secure boot
 * mokutil --revoke-import # revoke import
 * mokutil --test-key /var/lib/shim-signed/mok/MOK.der
-* update-secureboot-policy --new-key
-* printf "123\n123\n" | mokutil --import /var/lib/shim-signed/mok/MOK.der
+* update-secureboot-policy --new-key # create mok
+* printf "123\n123\n" | mokutil --import /var/lib/shim-signed/mok/MOK.der # use 123 as enroll key password
+* # install dkms # will enroll key
+* mokutil --revoke-import # to cancel enroll mok.
 
 ### deb verion retrival
 * $ rmadison pkg # in pkg devscripts
