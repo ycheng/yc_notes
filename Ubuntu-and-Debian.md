@@ -1,3 +1,7 @@
+### deb file
+* dpkg-deb -R xx.deb dir # extract deb file
+* dpkg-deb -b dir xxx.deb # create deb file archive.
+
 ### wav to mp3
 * soundconverter
 
