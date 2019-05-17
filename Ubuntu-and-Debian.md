@@ -1,3 +1,6 @@
+### amd gpu on linux
+* DRI_PRIME=1 glxgears / glxinfo
+
 ### deb file
 * dpkg-deb -R xx.deb dir # extract deb file
 * dpkg-deb -b dir xxx.deb # create deb file archive.
@@ -173,7 +176,7 @@ $ sudo update-initramfs -u
 
 Now it's 18.04
 
-* Gnome Terminal: Ctrl-Shift-C / Ctrl-Shift-V to copy/paste is annonying. I change it to Alt-c / Alt-v
+* Gnome Terminal: Ctrl-Shift-C / Ctrl-Shift-V to copy/paste is annoying. I change it to Alt-c / Alt-v
   * How: Gnome Terminal Menu -> Edit -> Preference -> Key -> Change it !
 
 For Chinese use:
