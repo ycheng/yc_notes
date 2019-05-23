@@ -1,3 +1,9 @@
+
+### Who mount nfs server.
+* netstat | grep :nfs
+
+### Bash
+
 * For loop
 ```
 for i in {0..10..2}
