@@ -1,5 +1,20 @@
 pip get wheel files
 * pip wheel pkg_name # it will download whl in the current directory (include dependency)
+Checking around, it seems using commands like
+
+pip download -d WHL_DIR pkg_name # some pkg exists in tar.gz, why?
+
+or
+
+pip wheel pkg_name # all pkgs in whl format.
+
+can generate something with human-readable file names that's manageable.
+And use
+
+pip install -f file///DIR pkg_name
+
+to install. Some say use pip-accel makes it easier, but I didn't try that. Not sure how we can combine both designs into one.
+
 
 List not used import
 * pyflakes file.py
