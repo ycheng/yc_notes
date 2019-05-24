@@ -1,3 +1,5 @@
+pip get wheel files
+* pip wheel pkg_name # it will download whl in the current directory (include dependency)
 
 List not used import
 * pyflakes file.py
