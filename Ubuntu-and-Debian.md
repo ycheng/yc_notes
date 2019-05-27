@@ -1,3 +1,6 @@
+### ubuntu 19.04 desktop install
+* "ubiquity gtk_ui"
+
 ### amd gpu on linux
 * DRI_PRIME=1 glxgears / glxinfo
 
