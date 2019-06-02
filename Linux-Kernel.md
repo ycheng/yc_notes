@@ -1,3 +1,6 @@
+### ZFS
+ * Deletes in ZFS are expensive. Even more so if you have deduplication enabled on the filesystem (since dereferencing deduped files is expensive). Snapshots could complicate matters too.  https://serverfault.com/questions/801074/delete-10m-files-from-zfs-effectively
+
 ### Suspend
  * https://www.kernel.org/doc/Documentation/power/states.txt
  * go to suspend: # echo mem > /sys/power/state
