@@ -1,3 +1,7 @@
+### compix test
+* /usr/lib/nux/unity_support_test -c -p # in package nux-tools
+
+
 ### ubuntu 19.04 desktop install
 * "ubiquity gtk_ui"
 
