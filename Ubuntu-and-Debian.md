@@ -1,3 +1,6 @@
+### auto-suspend
+* own by gnome-settings-daemon
+
 ### debconf
 * echo "postfix postfix/mailname string hostname.domain" | debconf-set-selections
 * echo "postfix postfix/main_mailer_type string 'Local only'" | debconf-set-selections
