@@ -1,3 +1,6 @@
+### create /dev/ device node
+ * use kernel function device_create to create device node in /dev/.
+
 ### ZFS
  * Deletes in ZFS are expensive. Even more so if you have deduplication enabled on the filesystem (since dereferencing deduped files is expensive). Snapshots could complicate matters too.  https://serverfault.com/questions/801074/delete-10m-files-from-zfs-effectively
 
