@@ -4,6 +4,7 @@
 ### Directories and files ###
 * /usr/share/apport/symptoms
 * /usr/share/apport/package-hooks
+* /etc/apport
 
 ### How it hook to os ###
 * cat /proc/sys/kernel/core_pattern 
