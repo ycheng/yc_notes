@@ -18,6 +18,7 @@ K8S pod:
 * kubectl get pods
 * kubectl get pods --all-namespaces
 * kubectl delete pods <pod>
+* kubectl exec <pod> -i -t -- /bin/bash # run command in pods
 
 K8S deployments:
 * kubectl get deployments
