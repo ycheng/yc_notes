@@ -48,6 +48,9 @@ K8S expose:
 * kubectl describe service deployment-name
 * minikube service deplyment-name --url
 
+K8S secrets:
+* kubectl create secret generic SECRET_NAME --from-file=FILE1 --from-file=FILE2
+
 Old School
 
 
