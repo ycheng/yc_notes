@@ -1,0 +1,1 @@
+* shift-esc: show resource usage panel. (need to click empty space of web page first)
