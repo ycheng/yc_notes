@@ -50,6 +50,8 @@ K8S expose:
 
 K8S secrets:
 * kubectl create secret generic SECRET_NAME --from-file=FILE1 --from-file=FILE2
+* secrets-db.yaml: base64 user name, password, etc.
+
 
 Old School
 
