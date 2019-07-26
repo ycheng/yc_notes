@@ -1,3 +1,8 @@
+### DistributionChannelDescriptor
+* DCD file is stored at /.disk/ubuntu_dist_channel in the installer
+* Ubiquity copies the file to /var/lib/ubuntu_dist_channel
+* Ref: https://wiki.ubuntu.com/FoundationsTeam/Specs/OemTrackingId
+
 ### auto-suspend
 * own by gnome-settings-daemon
 
