@@ -1,3 +1,11 @@
+### full set of audio debug info
+* alsa-info --stdout --no-upload
+* pactl list
+* pulseaudio debug log
+  * edit /etc/pulse/client.conf
+  * "extra-arguments = --log-target=syslog" to "extra-arguments = -vvvv --log-target=file:/tmp/a.txt"
+
+### XXX
 * lspci | grep -i audio
 *       => controller.
 
