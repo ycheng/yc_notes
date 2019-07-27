@@ -10,9 +10,17 @@
 # roles/db/handlers/*.yml
 ```
 
-### Env Var
+### Vars
+* Env Vars
 ```vars:
-  local_home: "{{ lookup('env','HOME') }}"```
+  local_home: "{{ lookup('env','HOME') }}"
+```
+* Vars can block task
+```tasks:
+    - name: Create the SSH directory.
+      file: state=directory path=${project_root}/home/.ssh/
+      only_if: "$vm == 0"
+```
 
 ### Handles
 * Multiple tasks can notify the same handlers. The handles will be run in the end once only if it's notified)
