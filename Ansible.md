@@ -1,6 +1,16 @@
 ### 
 
 ### iteration
+```
+      - name: create account
+        become: True
+        user:
+          name: "{{ item }}"
+          groups: user_group_name
+        with_items:
+          - user1
+          - user2
+```
 
 ### Enable remote python session use local ssh-agent key.
 * ansible.cfg
