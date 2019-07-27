@@ -1,6 +1,16 @@
-### 
+### Handles
+* Multiple tasks can notify the same handlers. The handles will be run in the end once only if it's notified)
+```tasks:
+  - name: install apache
+    action: apt pkg=apache2 state=latest
+    notify:
+      - start apache2
 
-### iteration
+handlers:
+  - name: start apache2
+    action: service name=apache2 state=started```
+
+### Iteration
 ```      - name: create account
         become: True
         user:
