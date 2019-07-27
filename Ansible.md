@@ -32,7 +32,8 @@
 
 handlers:
   - name: start apache2
-    action: service name=apache2 state=started```
+    action: service name=apache2 state=started
+```
 
 ### Iteration
 ```      - name: create account
