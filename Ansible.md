@@ -1,3 +1,10 @@
+
+
+
+### Env Var
+```vars:
+  local_home: "{{ lookup('env','HOME') }}"```
+
 ### Handles
 * Multiple tasks can notify the same handlers. The handles will be run in the end once only if it's notified)
 ```tasks:
