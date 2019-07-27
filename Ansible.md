@@ -1,8 +1,7 @@
 ### 
 
 ### iteration
-```
-      - name: create account
+```      - name: create account
         become: True
         user:
           name: "{{ item }}"
