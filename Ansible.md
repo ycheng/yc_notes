@@ -1,5 +1,14 @@
+### Roles
+```- host: xxx
+  roles:
+    - db
+    - { role:ruby, sudo_user:$user }
+    - web
 
-
+# Uses:
+# roles/db/tasks/*.yml
+# roles/db/handlers/*.yml
+```
 
 ### Env Var
 ```vars:
