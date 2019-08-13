@@ -1,3 +1,6 @@
+### netplan
+* /etc/netplan
+* For net connectted ethernet port: optional: true
 
 ### Who mount nfs server.
 * netstat | grep :nfs
