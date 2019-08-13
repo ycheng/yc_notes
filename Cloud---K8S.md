@@ -1,3 +1,6 @@
+### k8s GUI
+* https://kubernetic.com/
+
 ### MicroK8s
 * docker in microk8s: also have nvidia runtime support ! yes ! however, -p port1:port2 is not supported.
 * microk8s.docker create -it --name tf --runtime nvidia tf/tf:version /bin/bash
