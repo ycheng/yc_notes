@@ -1,14 +1,13 @@
-### find information
+### amend author
+* git commit --amend --author="Author Name <email@address.com>"
 
+### find information
 * git tag --contains commit-hash
 
-
 ### File name in non-ascii (like CJK)
-
 * git config core.quotepath false
 
 ### Worktree
-
 * git worktree add -b hotfix ../hotfix master # create a work tree with hotfix branch
 * git worktree list # list worktree
 * 
