@@ -115,7 +115,7 @@
 * $ sudo mii-tool eth0 [-v]
 * $ ethtool eth0
 
-### initrd.lx
+### initrd.lz
 * 7z e -so ../initrd.lz | cpio -id
 
 ### debug s3
