@@ -1,3 +1,3 @@
 Presigned url/cookie
 
-Web application firewall: sql injection, cross site xxx
+Web application firewall: can prevent sql injection, cross site scripting
