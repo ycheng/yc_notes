@@ -1,3 +1,7 @@
+### dashboard for developer
+* https://github.com/vmware/octant
+* OCTANT_LISTENER_ADDR=0.0.0.0:8900 octant
+
 ### k8s GUI
 * https://kubernetic.com/
 
