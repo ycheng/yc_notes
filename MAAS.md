@@ -1,4 +1,11 @@
 
+* ppa for maas: https://launchpad.net/~maas/+archive/ubuntu/stable
+```
+sudo add-apt-repository ppa:maas/stable
+sudo apt-get update
+sudo apt install maas
+```
+
 * after deploy, default account is ubuntu. use ssh public key to login.
 
 
