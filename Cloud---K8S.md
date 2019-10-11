@@ -11,6 +11,12 @@
 * https://github.com/canonical-labs/kaggle-kubeflow-tutorial works, with the following
  * cpu set to "1.0", mem set something smaller, I begin with "300Mi"
 
+## clustering
+* master $ sudo microk8s.add-node
+* master $ sudo microk8s.remove <node-name>
+* node $ microk8s.join host:port/key
+* node $ microk8s.leave
+* ref: https://discuss.kubernetes.io/t/microk8s-clustering-preview/7472
 
 ### K8S
 * SDN: https://tonybai.com/2017/01/17/understanding-flannel-network-for-kubernetes/
