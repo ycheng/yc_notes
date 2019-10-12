@@ -12,7 +12,7 @@ sudo apt install maas
 On Server:
 * /var/lib/maas/boot-resources/: images store here, it seems.
 * cloud init file like
-
+```
 >network:
 >    ethernets:
 >        enp0s31f6:
@@ -21,3 +21,4 @@ On Server:
 >            dhcp4: false
 >            addresses: [192.168.1.1/24]
 >    version: 2
+```
