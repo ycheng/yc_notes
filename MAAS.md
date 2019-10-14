@@ -1,6 +1,7 @@
 
 * ppa for maas: https://launchpad.net/~maas/+archive/ubuntu/stable
 ```
+sudo add-apt-repository ppa:maas/2.6
 sudo add-apt-repository ppa:maas/stable
 sudo apt-get update
 sudo apt install maas
