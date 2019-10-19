@@ -14,3 +14,4 @@ How to config:
   * https://medium.com/vivid-seats-engineering/how-to-kubernetes-pods-as-jenkins-build-agents-a726d3886861
   * Key Points:
   * Jenkins URL to http://<your_ip_address>:8080
+  * “Configure Global Security” => “Agents TCP port for inbound agents” => Fixed a port like 8081, and change the URL to http://<your_ip_address>:8081 so that it works.
