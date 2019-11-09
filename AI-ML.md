@@ -3,6 +3,7 @@
 * https://www.zebra-med.com/
 
 * https://scidm.nchc.org.tw/ 國高, 資料收集平台
+* https://github.com/DRCKnowledgeTeam/DRCD 台達電語料
 
 == efficiency ==
 * few-shot learning
