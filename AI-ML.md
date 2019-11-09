@@ -12,5 +12,10 @@
 * learn from un-paired data: style transformation.
 * meta-learning: 人臉辨識登入
 
+=== xxxx ===
+* Explainable
+* Efficiency
+* Robust
+
 
 XX phone error rate (?)
