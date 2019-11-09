@@ -9,3 +9,8 @@
 * few-shot learning
 
 * pre-training: bert
+* learn from un-paired data: style transformation.
+* 
+
+
+XX phone error rate (?)
