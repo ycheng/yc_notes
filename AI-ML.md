@@ -10,7 +10,7 @@
 
 * pre-training: bert
 * learn from un-paired data: style transformation.
-* meta-learning
+* meta-learning: 人臉辨識登入
 
 
 XX phone error rate (?)
