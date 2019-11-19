@@ -1,0 +1,1 @@
+* need to set "env LC_ALL=C.UTF-8 pwd" so that UTF-8 works in snap.
