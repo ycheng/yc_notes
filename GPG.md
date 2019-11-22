@@ -1,8 +1,9 @@
-subkey
-
+General command
+* gpg -k # list all key
+* gpg -K # list private key
 * gpg --sign xxx
-* gpg --recv-keys KEY_ID # get someone's key from key server
-
+* gpg --keyserver KEYSERVER --recv-key KEY_ID
+* gpg --keyserver KEYSERVER --send-key KEY_ID
 
 Key Signing
 * To sign someone's key (KEY_ID) by my key (MY_KEY_ID)
