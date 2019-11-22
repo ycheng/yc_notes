@@ -1,0 +1,3 @@
+subkey
+
+* gpg --sign xxx
