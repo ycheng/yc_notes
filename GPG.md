@@ -1,6 +1,7 @@
 subkey
 
 * gpg --sign xxx
+* gpg --recv-keys KEY_ID # get someone's key from key server
 
 
 Key Signing
