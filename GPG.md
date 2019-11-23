@@ -5,6 +5,12 @@ General command
 * gpg --keyserver KEYSERVER --recv-key KEY_ID
 * gpg --keyserver KEYSERVER --send-key KEY_ID
 
+Edit Key commands
+* $ gpg --edit-key KEI_ID
+* gpg> addkey # add subkey
+* gpg> adduid # add uid (new email address)
+
+
 Key Signing
 * To sign someone's key (KEY_ID) by my key (MY_KEY_ID)
   * gpg --sign-key KEY_ID # use master key to sign
