@@ -1,5 +1,6 @@
 CPU PM:
-* package-based P-states
+* package-based P-states, P0 ~ Pn:
+  *  The PM SW periodically monitors the processor utilization. If that utilization is less than a certain threshold, it increases the P-state, that is, it enters the next higher power efficiency state. 
 * package-based C-states (PC-states)
 * core-based C-states  (CC-states)
 * There are no per-core based P-states.
