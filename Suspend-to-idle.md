@@ -1,3 +1,9 @@
+CPU PM:
+* package-based P-states
+* package-based C-states (PC-states)
+* core-based C-states  (CC-states)
+* There are no per-core based P-states.
+
 ACPI在運行中有以下幾種模式：
 * S0 正常。
 * S1 CPU停止工作。喚醒時間：0秒。
