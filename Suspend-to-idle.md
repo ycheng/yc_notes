@@ -1,3 +1,10 @@
+To Check PC / CC status in linux
+* CC status:
+  * /sys/devices/system/cpu/cpu0/cpuidle/state?/name
+* PC State: 
+  * /sys/kernel/debug/pmc_core/package_cstate_show
+
+
 CPU PM: (https://software.intel.com/en-us/articles/power-management-states-p-states-c-states-and-package-c-states)
 * package-based P-states, P0 ~ Pn:
   *  The PM SW periodically monitors the processor utilization. If that utilization is less than a certain threshold, it increases the P-state, that is, it enters the next higher power efficiency state. 
