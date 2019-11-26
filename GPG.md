@@ -1,5 +1,6 @@
 General command
-* gpg -k # list all key
+* gpg -k # list all public key
+* gpg --check-sigs # list all public keys and their signature (by other keys)
 * gpg -K # list private key
 * gpg --sign xxx
 * gpg --keyserver KEYSERVER --recv-key KEY_ID
