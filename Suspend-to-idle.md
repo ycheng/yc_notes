@@ -4,8 +4,9 @@ To Check PC / CC status in linux
 * PC State: 
   * /sys/kernel/debug/pmc_core/package_cstate_show
 
-NV RTD3 (TO-READ)
-* https://download.nvidia.com/XFree86/Linux-x86_64/435.17/README/dynamicpowermanagement.html
+TO-READ
+* NV RTD3 https://download.nvidia.com/XFree86/Linux-x86_64/435.17/README/dynamicpowermanagement.html
+* Intel OSS web site: https://01.org/blogs/qwang59/2018/how-achieve-s0ix-states-linux?langredirect=1
 
 CPU PM: (https://software.intel.com/en-us/articles/power-management-states-p-states-c-states-and-package-c-states)
 * package-based P-states, P0 ~ Pn:
