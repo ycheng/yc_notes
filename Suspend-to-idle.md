@@ -7,6 +7,8 @@ To Check PC / CC status in linux
 TO-READ
 * NV RTD3 https://download.nvidia.com/XFree86/Linux-x86_64/435.17/README/dynamicpowermanagement.html
 * Intel OSS web site: https://01.org/blogs/qwang59/2018/how-achieve-s0ix-states-linux?langredirect=1
+* book: https://www.amazon.com/Power-Performance-Software-Analysis-Optimization/dp/0128007265
+  * https://books.google.com.tw/books?id=X-WcBAAAQBAJ&pg=PA197&dq=intel+cpu++rc6pp&hl=zh-TW&sa=X&ved=0ahUKEwi34fbwhoXmAhXLxYsBHZhkBDwQ6AEIKDAA#v=onepage&q=intel%20cpu%20%20rc6pp&f=false
 
 CPU PM: (https://software.intel.com/en-us/articles/power-management-states-p-states-c-states-and-package-c-states)
 * package-based P-states, P0 ~ Pn:
