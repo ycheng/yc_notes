@@ -3,6 +3,8 @@ To Check PC / CC status in linux
   * /sys/devices/system/cpu/cpu0/cpuidle/state?/name
 * PC State: 
   * /sys/kernel/debug/pmc_core/package_cstate_show
+* What idles is used? (acpi_idle vs intel_idle)
+  *  /sys/devices/system/cpu/cpuidle/current_driver
 
 TO-READ
 * NV RTD3 https://download.nvidia.com/XFree86/Linux-x86_64/435.17/README/dynamicpowermanagement.html
