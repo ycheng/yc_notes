@@ -1,3 +1,7 @@
+### OSI String
+* _OSI(Linux-Dell-Video) 
+* BIOS check OS if certain OSI String is supported.
+
 ### create /dev/ device node
  * use kernel function device_create to create device node in /dev/.
 
