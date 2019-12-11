@@ -1,8 +1,11 @@
+### Alsa
+* add "options snd-hda-codec-hdmi dyndbg" in the /etc/modprobe.d/alsa-base.conf. Reboot and check dmesg.
+
 ### OSI String
 * _OSI(Linux-Dell-Video) 
 * BIOS check OS if certain OSI String is supported.
 
-### create /dev/ device node
+### Create /dev/ device node
  * use kernel function device_create to create device node in /dev/.
 
 ### ZFS
