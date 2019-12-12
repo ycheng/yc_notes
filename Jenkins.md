@@ -1,4 +1,9 @@
 
+# Locale plugin
+* So you can see English no matter what's your browser's preferences.
+
+# K8S Plugin
+
 * Plugin: https://plugins.jenkins.io/kubernetes
 
 How to config:
