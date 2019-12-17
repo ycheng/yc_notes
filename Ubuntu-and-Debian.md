@@ -1,7 +1,9 @@
-Copy from proposed channel to ppa
+### XDG
+ * /etc/xdg/autostart/
+
+### Copy from proposed channel to ppa
 * bzr+ssh://bazaar.launchpad.net/+branch/ubuntu-archive-tools/
 * ./copy-package  rtl8821ce --from=ubuntu --from-suite=bionic-proposed --to="ppa:oem-archive/ubuntu/<project>" -b --to-suite=bionic
-
 
 ### DistributionChannelDescriptor
 * DCD file is stored at /.disk/ubuntu_dist_channel in the installer
