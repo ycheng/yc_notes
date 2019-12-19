@@ -1,3 +1,6 @@
+### dd
+ * dd if=xxx.iso of=/dev/sdX  conv=fdatasync
+
 ### XDG
  * /etc/xdg/autostart/
 
