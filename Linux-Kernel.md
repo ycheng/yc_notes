@@ -1,3 +1,12 @@
+### Disable certain run time pm for certain pci id
+ * https://askubuntu.com/questions/185274/how-can-i-disable-usb-autosuspend-for-a-specific-device
+ * 
+```
+# udev rule
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0624", ATTR{idProduct}=="0013", ATTR{product}=="SC Secure KVM", TEST=="power/control", ATTR{power/control}:="on"
+# udevadm info -a --path /sys/bus/usb/devices/N-N
+```
+
 ### Alsa
 * add "options snd-hda-codec-hdmi dyndbg" in the /etc/modprobe.d/alsa-base.conf. Reboot and check dmesg.
 
