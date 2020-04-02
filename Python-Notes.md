@@ -1,3 +1,6 @@
+Print Function
+ * from __future__ import print_function
+
 pip get wheel files
 * pip wheel pkg_name # it will download whl in the current directory (include dependency)
 Checking around, it seems using commands like
