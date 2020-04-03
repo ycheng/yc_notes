@@ -19,7 +19,8 @@
 ### debconf
 * echo "postfix postfix/mailname string hostname.domain" | debconf-set-selections
 * echo "postfix postfix/main_mailer_type string 'Local only'" | debconf-set-selections
-* debconf-set-selections # from debconf-utils
+* debconf-get-selections # from debconf-utils
+ * export DEBIAN_FRONTEND=noninteractive
 
 ### 19.04 ethernet config: use netplan
 * /etc/netplan/
