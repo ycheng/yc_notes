@@ -1,3 +1,6 @@
+Virtualbox + vagrant in focal
+
+ * https://github.com/hashicorp/vagrant/issues/10970
 
 Virtualbox
 * vboxmanage list vms: list existing vm
