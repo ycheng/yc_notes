@@ -5,3 +5,9 @@ Access minio-service from notebook:
 
 Notebook engine
 * kubeflow_jupyter-web-app-deployment
+
+Resource or links
+* kubeflow
+* fairing related:
+  * https://github.com/kubeflow/fairing/tree/master/examples/prediction
+  * https://github.com/kubeflow/fairing/issues/369
