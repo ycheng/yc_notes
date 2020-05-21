@@ -32,6 +32,7 @@ ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0624", ATTR{idProduct}=="0013
 ### ACPI
 
 * brightness adjustment hot-key: ACPI event ?
+* acpidbg -b "notify _SB.PWRB 0x80" # simulate power key
 
 ### Intel CPU
 
