@@ -3,7 +3,7 @@
  * import logging
  * logging.error('error is: ' % str(err), exc_info=True, stack_info=True)
  
-Print Function
+###  Print Function (for python2 code (?))
 ```
 from __future__ import print_function
 ```
