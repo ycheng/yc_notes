@@ -10,6 +10,9 @@
   * systemctl --user stop|start pulseaudio.service
   * journalctl --user --since "5 minutes ago" -f -a -u pulseaudio
   * 
+ * module-switch-on-port-available
+  * https://github.com/pulseaudio/pulseaudio/commits/master/src/modules/module-switch-on-port-available.c
+  * https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting
   
 ### XXX
 * lspci | grep -i audio
