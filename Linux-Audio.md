@@ -4,7 +4,7 @@
 * pulseaudio debug log
   * edit /etc/pulse/client.conf
   * "extra-arguments = --log-target=syslog" to "extra-arguments = -vvvv --log-target=file:/tmp/a.txt"
-
+* focal: /usr/lib/systemd/user/pulseaudio.service
 ### XXX
 * lspci | grep -i audio
 *       => controller.
