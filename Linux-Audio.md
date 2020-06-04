@@ -8,7 +8,7 @@
   * /usr/lib/systemd/user/pulseaudio.service
   * systemctl --user daemon-reload
   * systemctl --user start|start pulseaudio.service
-  * journalctl --user  -f
+  * journalctl --user  -f _SYSTEMD_UNIT=pulseaudio.service
   
 ### XXX
 * lspci | grep -i audio
