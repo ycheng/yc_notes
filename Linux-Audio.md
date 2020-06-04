@@ -7,7 +7,9 @@
 * focal:
   * /usr/lib/systemd/user/pulseaudio.service
   * systemctl --user daemon-reload
-  * 
+  * systemctl --user start|start pulseaudio.service
+  * journalctl --user  -f
+  
 ### XXX
 * lspci | grep -i audio
 *       => controller.
