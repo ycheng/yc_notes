@@ -1,3 +1,5 @@
+* pinentry-program /usr/bin/pinentry-curses
+
 General command
 * gpg -k # list all public key
 * gpg --check-sigs # list all public keys and their signature (by other keys)
