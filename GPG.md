@@ -1,4 +1,5 @@
 * pinentry-program /usr/bin/pinentry-curses
+* sudo update-alternatives --config pinentry
 
 General command
 * gpg -k # list all public key
