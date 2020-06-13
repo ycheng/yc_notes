@@ -3,3 +3,8 @@ Ref https://www.youtube.com/watch?v=QIN3mk8k9Hk&fbclid=IwAR0yoK4VGxmDS9DJVcTSKYu
 * ESP8266 + USB TTL (to host, arduino)
 * 16x2 LCD, I2C interface, 4 wires
 * https://github.com/70sgamer/YouTube-Subscriber-LCD
+ * youtube api key...
+ * youtube channel...
+ * wifi
+  * ssid
+  * password 
