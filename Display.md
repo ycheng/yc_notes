@@ -7,6 +7,7 @@ RPi3 I2C LCD
   * have 3.3V and 5V vcc
 * https://www.icshop.com.tw/product_info.php/products_id/23093/Twesid/e17uvjlo3fni8akide826pdt40
   * 5V?
+  * http://wordpress.bestdaylong.com/blog/archives/16216/rpi-3%e7%9a%84gpio%e8%85%b3%e4%bd%8d_01
 
 Ref https://www.youtube.com/watch?v=QIN3mk8k9Hk&fbclid=IwAR0yoK4VGxmDS9DJVcTSKYunopRbLIkHWUM9BabxqVH87MtMpbkKvv-uWTs
 * ESP8266 + USB TTL (to host, arduino)
