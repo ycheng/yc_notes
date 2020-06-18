@@ -6,8 +6,7 @@ Relation with oem-config
 etc.
 
 dell-recovery:
- * start-ubiquity-dm
-
+ * /usr/share/ubiquity/start-ubiquity-dm
 
 oobe:
- * first-boot ?
+ * oem-config: oem-config-firstboot
