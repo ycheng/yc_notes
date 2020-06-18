@@ -25,7 +25,7 @@ oobe:
    * so it will run oem-config-firstboot
  * oem-config: oem-config-firstboot
  * => ubiquity-dm
- * => oem-config-wrap - oem-config
+ * => oem-config-wrap - oem-config --only
    * debconf-communi
    * pluginstall.py
    ...
