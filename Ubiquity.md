@@ -24,3 +24,8 @@ oobe:
  * default.target link to oem-config.target (/lib/systemd/system/oem-config.target)
    * so it will run oem-config-firstboot
  * oem-config: oem-config-firstboot
+ * => ubiquity-dm
+ * => oem-config-wrap - oem-config
+   * debconf-communi
+   * pluginstall.py
+   ...
