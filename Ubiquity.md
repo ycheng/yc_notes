@@ -31,4 +31,6 @@ oobe:
  * => oem-config-wrap - oem-config --only
    * debconf-communi
    * pluginstall.py
-   ...
+     * set UBIQUITY_PLUGIN_PATH to use other plugin path
+     * 
+     * final: /usr/bin/oem-config-remove-gtk to cleanup.
