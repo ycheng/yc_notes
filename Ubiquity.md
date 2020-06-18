@@ -18,6 +18,7 @@ dell-recovery:
  * ubiquity --pass-output /usr/share/ubiquity/install.py
    * pytho3 /usr/share/ubiquity/install.py
    * balala
+ * ubiquity --pass-output /usr/share/ubiquity/plugininstall.py
 
 oobe:
  * default.target link to oem-config.target (/lib/systemd/system/oem-config.target)
