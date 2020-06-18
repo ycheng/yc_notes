@@ -15,6 +15,9 @@ dell-recovery:
  * /usr/share/ubiquity/start-ubiquity-dm
  * /usr/share/ubiquity/dell-bootstrap
    * dh_input dell-recovery/recovery_type || true
+ * ubiquity --pass-output /usr/share/ubiquity/install.py
+   * pytho3 /usr/share/ubiquity/install.py
+   * balala
 
 oobe:
  * default.target link to oem-config.target (/lib/systemd/system/oem-config.target)
