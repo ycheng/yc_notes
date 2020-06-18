@@ -4,3 +4,10 @@ Plugins:
 Relation with oem-config
 ....
 etc.
+
+dell-recovery:
+ * start-ubiquity-dm
+
+
+oobe:
+ * first-boot ?
