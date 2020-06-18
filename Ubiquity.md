@@ -13,6 +13,8 @@ dell-recovery:
    * automatic-ubiquity
      * so it will /usr/lib/udisk2/udisks2-inhibit /usr/lib/ubiquity/bin/ubiquity --automatic --only
  * /usr/share/ubiquity/start-ubiquity-dm
+ * /usr/share/ubiquity/dell-bootstrap
+   * dh_input dell-recovery/recovery_type || true
 
 oobe:
  * default.target link to oem-config.target (/lib/systemd/system/oem-config.target)
