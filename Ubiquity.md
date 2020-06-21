@@ -10,6 +10,7 @@ OOBE:
      * set UBIQUITY_PLUGIN_PATH to use other plugin path
      * 
      * final: /usr/bin/oem-config-remove-gtk to cleanup.
+ * gsettings set org.gnome.desktop.media-handling automount true
 
 Ref: https://github.com/bafu/hack-ubiquity
 
