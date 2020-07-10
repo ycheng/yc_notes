@@ -1,3 +1,7 @@
+### remove ansi color
+* cat typescript | ansi2txt | col -b
+* apt install colorized-logs
+
 ### netplan
 * /etc/netplan
 * For not connectted ethernet port: optional: true
