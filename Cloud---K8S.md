@@ -1,3 +1,7 @@
+### k8s cook book
+ * dumb-init
+ * 
+
 ### dashboard for developer
 * https://github.com/vmware/octant
 * OCTANT_LISTENER_ADDR=0.0.0.0:7777 octant
@@ -6,7 +10,6 @@
 * https://kubernetic.com/
 
 ### MicroK8s
-* docker in microk8s: also have nvidia runtime support ! yes ! however, -p port1:port2 is not supported.
 * microk8s.docker create -it --name tf --runtime nvidia tf/tf:version /bin/bash
 * https://github.com/canonical-labs/kaggle-kubeflow-tutorial works, with the following
  * cpu set to "1.0", mem set something smaller, I begin with "300Mi"
