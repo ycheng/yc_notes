@@ -4,6 +4,7 @@
  * xrandr --output eDP-1 --set "max bpc" 6 # set to 6 bit per channel
  * xrandr --output eDP-1 --set "max bpc" 8 # set to 8 bit per channel
  * sudo grep bpp /sys/kernel/debug/dri/0/i915_display_info # check value
+ * OLD WAY TO TRY: startx -- -depth 16 / startx -- -depth 24
 
 ### dd
  * dd if=xxx.iso of=/dev/sdX  conv=fdatasync
