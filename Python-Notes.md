@@ -2,6 +2,10 @@
 ### backtrace
  * import logging
  * logging.error('error is: ' % str(err), exc_info=True, stack_info=True)
+ * ===
+ * import traceback
+ * traceback.print_stack()
+
  
 ###  Print Function (for python2 code (?))
 ```
