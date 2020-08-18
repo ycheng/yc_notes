@@ -1,6 +1,8 @@
 ### Collect log to local report
 * use package gnome-shell as example
-* apport-cli  -p gnome-shell -f --save=gnome-shell.apport
+  * apport-cli  -p gnome-shell -f --save=gnome-shell.apport
+* scenario
+  * apport-cli -s audio -f --save=gnome-shell.log # scenario audio
 
 ### Official link ###
 * https://wiki.ubuntu.com/Apport
