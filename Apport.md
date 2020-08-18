@@ -1,3 +1,7 @@
+### Collect log to local report
+* use package gnome-shell as example
+* apport-cli  -p gnome-shell -f --save=gnome-shell.apport
+
 ### Official link ###
 * https://wiki.ubuntu.com/Apport
 
