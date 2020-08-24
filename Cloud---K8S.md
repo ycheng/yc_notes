@@ -1,3 +1,12 @@
+
+### docker
+ * change location of docker dir. modify /etc/docker/daemon.json
+```
+{
+   "graph": "/path/to/your/docker"
+}```
+
+
 ### k8s cook book
  * dumb-init
  * 

@@ -6,6 +6,12 @@ Virtualbox
 * vboxmanage list vms: list existing vm
  * 
 
+Vagrant box dir:
+* $HOME/.vagrant.d/boxes
+
+
+
+
 * Simulate dell machine: https://paste.ubuntu.com/p/c6Yn5VCNgX/
 
 ```
