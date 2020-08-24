@@ -1,5 +1,8 @@
 
 
+### Cuda
+ *
+
 ### xrandr color bits
  * xrandr --output eDP-1 --set "max bpc" 6 # set to 6 bit per channel
  * xrandr --output eDP-1 --set "max bpc" 8 # set to 8 bit per channel
@@ -89,6 +92,9 @@
 
 ### dd
 * dd if=XXX.iso of=/dev/sdb conv=fsync status=progress
+
+### dkms
+* sudo dkms install <module-name>/<module-version> -k <kernel-version>
 
 ### secure boot
 * mokutil --revoke-import # revoke import
