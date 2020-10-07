@@ -1,6 +1,13 @@
+Box related command:
+ * vagrant box list
+ * vagrant package --output somerville-vagrant-base.box # create a box for current vagrant (dir)
+ * 
+
+
 Virtualbox + vagrant in focal
 
  * https://github.com/hashicorp/vagrant/issues/10970
+ * vb.customize [ "modifyvm", :id, "--uartmode1", "file", Vagrant::Util::Platform.windows? ? "NUL" : "/dev/null" ]
 
 Virtualbox
 * vboxmanage list vms: list existing vm
