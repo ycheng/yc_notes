@@ -28,3 +28,8 @@ To check if kernel is signed:
 * check against mok
 * sbverify --cert /var/lib/shim-signed/test_kernel/MOK.pem vmlinuz-5.6.0-1028-oem
 * Signature verification OK
+
+EFI Variable:
+mok for dkms ?
+* EFIVAR=/sys/firmware/efi/efivars/MokKeyEnroll-e22021f7-3a03-4aea-8b4c-65881a2b8881
+* EFIVAR=/sys/firmware/efi/efivars/MokKeyTestKer-161a47b3-c116-4942-ae30-cde31ecae242
