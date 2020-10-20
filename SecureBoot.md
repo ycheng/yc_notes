@@ -1,3 +1,6 @@
+der / pem
+* openssl x509 -inform der -in certificate.cer -out certificate.pem.
+
 Pre-generated mok for dkms and test kernel:
 * oem-fix-misc-cnl-sbtestkey_fish1.tar.gz, will install below key to /var/lib/shim-signed
 * test_kernel/TestKer.pem
