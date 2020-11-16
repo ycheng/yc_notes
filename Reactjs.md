@@ -1,7 +1,9 @@
 JS Design pattern:
 * https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
 
-https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/
+React Hook:
+* buttom of: https://zh-hant.reactjs.org/docs/hooks-faq.html
+* https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/
 
 Sample useState:
 ```
