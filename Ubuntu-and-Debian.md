@@ -1,4 +1,5 @@
-
+### moden trace route
+ * mtr -c 1 -r --tcp -P 11371 keyserver.ubuntu.com
 
 ### Cuda
  *
