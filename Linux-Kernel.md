@@ -7,6 +7,10 @@ ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0624", ATTR{idProduct}=="0013
 # udevadm info -a --path /sys/bus/usb/devices/N-N
 ```
 
+### power/control
+ * on: preventing the device from being runtime power-managed.
+ * auto: allowing the device to be runtime power-managed by its driver.
+
 ### Alsa
 * add "options snd-hda-codec-hdmi dyndbg" in the /etc/modprobe.d/alsa-base.conf. Reboot and check dmesg.
 
