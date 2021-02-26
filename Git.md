@@ -1,6 +1,7 @@
 ### fetch bare repo
 * 
-```git config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+```
+git config remote.origin.fetch refs/heads/*:refs/heads/*
 git --git-dir=foo.git fetch origin +refs/heads/*:refs/heads/* --prune
 ```
 
