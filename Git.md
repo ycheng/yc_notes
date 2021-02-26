@@ -1,3 +1,25 @@
+### fetch bare repo
+* 
+```git config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+git --git-dir=foo.git fetch origin +refs/heads/*:refs/heads/* --prune
+```
+
+### git - bzr
+* 
+```
+for p in `cat migrate.list`
+do
+    echo ${p}
+    bzr branch lp:~oem-solutions-engineers/bugsy-config/${p}
+    cd ${p}
+    git init
+    bzr fast-export --plain . | git fast-import
+    git remote add lp lp:~oem-solutions-engineers/bugsy-config/+git/somerville-project-manifests
+    git push lp master:${p}
+    cd -
+done
+```
+
 ### amend author
 * git commit --amend --author="Author Name <email@address.com>"
 
