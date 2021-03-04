@@ -1,3 +1,8 @@
+### Serial Mouse in Linux
+
+1. Plug serial mouse
+2. use $ sudo inputattach --microsoft /dev/ttyS4 to test mouse
+
 ### Disable certain run time pm for certain pci id
  * https://askubuntu.com/questions/185274/how-can-i-disable-usb-autosuspend-for-a-specific-device
  * 
