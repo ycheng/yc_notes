@@ -1,3 +1,5 @@
+Selenium python reference: https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webelement
+
 On Focal, step 1:
 ```
 sudo apt-get install python3-selenium --no-install-recommends
