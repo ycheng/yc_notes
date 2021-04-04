@@ -7,3 +7,6 @@ Ubuntu
 
 Data Science Pack
   * **https://github.com/NVIDIA/data-science-stack**
+
+Tensorflow and cuda compatiability
+  * https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
