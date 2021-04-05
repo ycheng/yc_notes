@@ -1,5 +1,6 @@
 
 
+Content interface example: https://github.com/ycheng/snap_content_interface
 
 Snapcraft
 ```
