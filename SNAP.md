@@ -1,4 +1,4 @@
-
+Snapcraft 4.0 articale: https://blog.sergiusens.org/posts/snapcraft-4.0/
 
 Content interface example: https://github.com/ycheng/snap_content_interface
 
