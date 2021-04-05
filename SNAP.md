@@ -1,3 +1,25 @@
+
+
+
+Snapcraft
+```
+snapcraft pull [<part-name>] # downloads,  source-*
+snapcraft build [<part-name>] # use plugins, can use staging area on "after"
+snapcraft stage [<part-name>] # copies the built parts into the staging area
+snapcraft prime [<part-name>] # copies to prime, cause staging area might still contain files that are required for the build but not for the snap
+snapcraft snap or snapcraft
+```
+
+Snapcraft advanced grammar: https://snapcraft.io/docs/snapcraft-advanced-grammar
+```
+parts:
+  _part_name_:
+    stage-packages:
+    # libnuma1 package isn't available in armhf architecture, make it optional
+    - try:
+      - libnuma1
+```
+
 SNAP Running ENV Sample
 ```SNAP_REVISION=x3
 SNAP_REAL_HOME=/home/ycheng
