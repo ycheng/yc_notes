@@ -34,8 +34,16 @@
 * debconf-get-selections # from debconf-utils
  * export DEBIAN_FRONTEND=noninteractive
 
-### 19.04 ethernet config: use netplan
+### 20.04 ethernet config: use netplan
 * /etc/netplan/
+* samples
+```    dhcp4: no
+    addresses:
+       - 192.168.121.221/24
+    gateway4: 192.168.121.1
+    nameservers:
+       addresses: [8.8.8.8, 1.1.1.1]
+```
 
 ### compix test
 * /usr/lib/nux/unity_support_test -c -p # in package nux-tools
