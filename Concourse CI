@@ -11,3 +11,13 @@ server global resource type definition:
 build docker image:
         https://github.com/vito/oci-build-task
 
+Worker:
+* XXX
+
+Cache:
+* last output signature
+* 
+
+resource:
+* mp in lp?
+* 
