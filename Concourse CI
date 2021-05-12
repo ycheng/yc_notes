@@ -1,0 +1,13 @@
+
+
+fourdollars:
+* https://github.com/fourdollars?tab=repositories&q=resource&type=&language=&sort=
+
+https://concourse-ci.org/implementing-resource-types.html
+
+server global resource type definition:
+        todo
+
+build docker image:
+        https://github.com/vito/oci-build-task
+
