@@ -18,11 +18,19 @@ Cache:
 * last output signature
 * file (and it's signature)
 
-resource:
+default resource:
 * docker image
 * timer
 * git (docker image to fetch and check version)
 
 TODO resource:
 * mp in lp?
+* 
+
+FourDollars resource:
+* https://github.com/fourdollars/samba-resource
+* https://github.com/fourdollars/dput-ppa-resource
+* https://github.com/fourdollars/webdav-resource
+* https://github.com/fourdollars/mattermost-notification-resource
+* https://github.com/fourdollars/autopkgtest-resource
 * 
