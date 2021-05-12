@@ -1,5 +1,8 @@
 
 
+job plan:
+* passed: [job_name]
+
 fourdollars:
 * https://github.com/fourdollars?tab=repositories&q=resource&type=&language=&sort=
 
@@ -12,7 +15,10 @@ build docker image:
         https://github.com/vito/oci-build-task
 
 Worker:
-* XXX
+* can have tag
+
+resource:
+* tags: to find worker to run on it.
 
 Cache:
 * last output signature
@@ -33,4 +39,10 @@ FourDollars resource:
 * https://github.com/fourdollars/webdav-resource
 * https://github.com/fourdollars/mattermost-notification-resource
 * https://github.com/fourdollars/autopkgtest-resource
+* 
+
+
+tag:
+* resource_type
+* resource
 * 
